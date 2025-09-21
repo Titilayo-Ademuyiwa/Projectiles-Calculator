@@ -1,0 +1,169 @@
+body {
+  background-color: green;
+}
+
+.appname {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  color: whitesmoke;
+  font-size: 60px;
+  text-shadow: 0px 0px 50px black 0px 0px 10px black;
+}
+#calculate {
+  margin-left: 4vw;
+  margin-top: 35vh;
+  width: 90vw;
+  background-color: gray;
+
+  box-shadow: 0px 0px 20px 10px gray;
+}
+.calculator {
+  display: none;
+}
+.visible-calculator {
+  display: flex;
+  flex-direction: column;
+}
+.calculator-button {
+  background-color: gray;
+}
+.hide {
+  display: none;
+}
+
+#app-description {
+  color: azure;
+  font-size: 25px;
+}
+#learnbutton {
+  background-color: green;
+}
+.videosandnotesdiv {
+  background-color: rgba(17, 168, 37, 0.473);
+}
+.videosandnotes {
+  font-style: oblique;
+  color: white;
+  text-decoration: none;
+}
+
+.vx {
+  background-image: linear-gradient(90deg, white, green);
+  display: flex;
+  flex-grow: inherit;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3vw;
+  padding-top: 35vh;
+}
+.vy {
+  background-image: linear-gradient(90deg, white, blue);
+  display: flex;
+  flex-grow: inherit;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3vw;
+  padding-top: 35vh;
+}
+.sx {
+  background-image: linear-gradient(90deg, purple, green);
+  display: flex;
+  flex-grow: inherit;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3vw;
+  padding-top: 35vh;
+}
+.sy {
+  background-image: linear-gradient(90deg, white, tomato);
+  display: flex;
+  flex-grow: inherit;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3vw;
+  padding-top: 35vh;
+}
+.h {
+  background-image: linear-gradient(90deg, orange, green);
+  display: flex;
+  flex-grow: inherit;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3vw;
+  padding-top: 35vh;
+}
+.t {
+  background-image: linear-gradient(90deg, white, pink);
+  display: flex;
+  flex-grow: inherit;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3vw;
+  padding-top: 35vh;
+}
+.toff {
+  background-image: linear-gradient(90deg, black, green);
+  display: flex;
+  flex-grow: inherit;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3vw;
+  padding-top: 35vh;
+}
+.r {
+  background-image: linear-gradient(90deg, white, gray);
+  display: flex;
+  flex-grow: inherit;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3vw;
+  padding-top: 35vh;
+}
+.rmax {
+  background-image: linear-gradient(90deg, pink, green);
+  display: flex;
+  flex-grow: inherit;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3vw;
+  padding-top: 35vh;
+}
+.formulas {
+  height: 5vh;
+  width: 80vw;
+}
+
+/* media queries */
+@media only screen and (max-width: 640px) {
+  .appname {
+    font-size: 30px;
+  }
+  #app-description {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .appname {
+    font-size: 25px;
+  }
+  #app-description {
+    font-size: 23px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .appname {
+    font-size: 20px;
+  }
+  #app-description {
+    font-size: 10px;
+  }
+}
